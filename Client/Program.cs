@@ -1,0 +1,3 @@
+﻿using Client;
+
+ClientApplication.ConsoleReadlineToString();
