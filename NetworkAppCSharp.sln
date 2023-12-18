@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetworkAppCSharp", "NetworkAppCSharp\NetworkAppCSharp.csproj", "{5D5C0167-3AAC-4C96-9857-73B57B22856D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Server", "NetworkAppCSharp\Server.csproj", "{5D5C0167-3AAC-4C96-9857-73B57B22856D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Client", "Client\Client.csproj", "{A0C5957A-3E20-4C7A-9E7F-79B2B009318E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{5D5C0167-3AAC-4C96-9857-73B57B22856D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5D5C0167-3AAC-4C96-9857-73B57B22856D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5D5C0167-3AAC-4C96-9857-73B57B22856D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0C5957A-3E20-4C7A-9E7F-79B2B009318E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0C5957A-3E20-4C7A-9E7F-79B2B009318E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0C5957A-3E20-4C7A-9E7F-79B2B009318E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0C5957A-3E20-4C7A-9E7F-79B2B009318E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
