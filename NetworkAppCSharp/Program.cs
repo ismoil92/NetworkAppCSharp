@@ -1,2 +1,6 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using NetworkAppCSharp.Models;
+
+var ctx = new ChatContext();
+
+if (ctx != null)
+    Console.WriteLine("true");
