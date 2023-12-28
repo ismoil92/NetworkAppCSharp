@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetworkAppCSharp", "NetworkAppCSharp\NetworkAppCSharp.csproj", "{5D5C0167-3AAC-4C96-9857-73B57B22856D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetworkAppCSharp", "NetworkAppCSharp\NetworkAppCSharp.csproj", "{5D5C0167-3AAC-4C96-9857-73B57B22856D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatCommon", "ChatCommon\ChatCommon.csproj", "{FBC112A4-D9C5-4A91-A9DF-D6A0117748E0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatDB", "ChatDB\ChatDB.csproj", "{B53F7D57-384C-4C79-94DC-0DBF54550FDC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatApp", "ChatApp\ChatApp.csproj", "{68199390-C37E-4955-AEF2-2099B3B26FED}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +21,18 @@ Global
 		{5D5C0167-3AAC-4C96-9857-73B57B22856D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5D5C0167-3AAC-4C96-9857-73B57B22856D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5D5C0167-3AAC-4C96-9857-73B57B22856D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBC112A4-D9C5-4A91-A9DF-D6A0117748E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBC112A4-D9C5-4A91-A9DF-D6A0117748E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBC112A4-D9C5-4A91-A9DF-D6A0117748E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBC112A4-D9C5-4A91-A9DF-D6A0117748E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B53F7D57-384C-4C79-94DC-0DBF54550FDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B53F7D57-384C-4C79-94DC-0DBF54550FDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B53F7D57-384C-4C79-94DC-0DBF54550FDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B53F7D57-384C-4C79-94DC-0DBF54550FDC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68199390-C37E-4955-AEF2-2099B3B26FED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68199390-C37E-4955-AEF2-2099B3B26FED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68199390-C37E-4955-AEF2-2099B3B26FED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68199390-C37E-4955-AEF2-2099B3B26FED}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
